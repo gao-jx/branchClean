@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/gao-jx/branchClean#readme",
   "dependencies": {
-    "inquirer": "^6.2.1",
-    "shelljs": "^0.8.3"
+    "inquirer": "^6.2.1"
   }
 }
