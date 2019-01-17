@@ -1,0 +1,31 @@
+{
+  "name": "branchclean",
+  "version": "1.0.0",
+  "description": "clean up all these old local git branches",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "clean": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gao-jx/branchClean.git"
+  },
+  "keywords": [
+    "git",
+    "node"
+  ],
+  "author": "gaojx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gao-jx/branchClean/issues"
+  },
+  "homepage": "https://github.com/gao-jx/branchClean#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "shelljs": "^0.8.3"
+  }
+}
